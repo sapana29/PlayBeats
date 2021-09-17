@@ -1,0 +1,122 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ /*background-image:url("https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80");*/
+  background-color: black;
+  background-size: 74%;
+}
+
+
+.navbar a {
+  float: right;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+/* Style the search box inside the navigation bar*/
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.dropdown {
+  float: right;
+  overflow: visible;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #170055;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.image
+{
+  margin-right:60%;
+  margin-top:30px;
+  height:500px;
+}
+
+.navbar #name{
+  float: left;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style:italic;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+#myCarousel{
+  width: 100%;
+  animation: 9s myCarousel infinte;
+}
+
+/*#searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+
+/*When the input field gets focus,
+        change its width to 100
+   input[type=text]:focus {
+     width: 70%;
+   }
+
+  #list{
+    font-size:  1.5em;
+    margin-left: 90px;
+   }
+
+.animals{
+   display: list-item;
+  }*/
